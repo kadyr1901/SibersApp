@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33213.308
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sibers.Data", "Sibers.Data\Sibers.Data.csproj", "{0380FEDE-47A0-4617-AFD6-BB8233B2E84E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sibers.Web", "Sibers.Web\Sibers.Web.csproj", "{0EE38827-DA41-4745-918F-775AED1EA92E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0380FEDE-47A0-4617-AFD6-BB8233B2E84E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0380FEDE-47A0-4617-AFD6-BB8233B2E84E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0380FEDE-47A0-4617-AFD6-BB8233B2E84E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0380FEDE-47A0-4617-AFD6-BB8233B2E84E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0EE38827-DA41-4745-918F-775AED1EA92E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0EE38827-DA41-4745-918F-775AED1EA92E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0EE38827-DA41-4745-918F-775AED1EA92E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0EE38827-DA41-4745-918F-775AED1EA92E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FDFA4232-7AB7-471D-8568-837BFC58A2BC}
+	EndGlobalSection
+EndGlobal
