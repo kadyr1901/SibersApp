@@ -28,6 +28,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\Sibers.Core\Sibers.Core.csproj" />
     <ProjectReference Include="..\Sibers.Data\Sibers.Data.csproj" />
   </ItemGroup>
 

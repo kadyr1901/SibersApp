@@ -12,3 +12,17 @@ C:\Users\kasylbekov\source\repos\Sibers.Data\Sibers.Data\obj\Debug\net7.0\refint
 C:\Users\kasylbekov\source\repos\Sibers.Data\Sibers.Data\obj\Debug\net7.0\Sibers.Data.pdb
 C:\Users\kasylbekov\source\repos\Sibers.Data\Sibers.Data\obj\Debug\net7.0\Sibers.Data.genruntimeconfig.cache
 C:\Users\kasylbekov\source\repos\Sibers.Data\Sibers.Data\obj\Debug\net7.0\ref\Sibers.Data.dll
+C:\petProjects\SibersApp\Sibers.Data\bin\Debug\net7.0\Sibers.Data.deps.json
+C:\petProjects\SibersApp\Sibers.Data\bin\Debug\net7.0\Sibers.Data.runtimeconfig.json
+C:\petProjects\SibersApp\Sibers.Data\bin\Debug\net7.0\Sibers.Data.dll
+C:\petProjects\SibersApp\Sibers.Data\bin\Debug\net7.0\Sibers.Data.pdb
+C:\petProjects\SibersApp\Sibers.Data\obj\Debug\net7.0\Sibers.Data.csproj.AssemblyReference.cache
+C:\petProjects\SibersApp\Sibers.Data\obj\Debug\net7.0\Sibers.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\petProjects\SibersApp\Sibers.Data\obj\Debug\net7.0\Sibers.Data.AssemblyInfoInputs.cache
+C:\petProjects\SibersApp\Sibers.Data\obj\Debug\net7.0\Sibers.Data.AssemblyInfo.cs
+C:\petProjects\SibersApp\Sibers.Data\obj\Debug\net7.0\Sibers.Data.csproj.CoreCompileInputs.cache
+C:\petProjects\SibersApp\Sibers.Data\obj\Debug\net7.0\Sibers.Data.dll
+C:\petProjects\SibersApp\Sibers.Data\obj\Debug\net7.0\refint\Sibers.Data.dll
+C:\petProjects\SibersApp\Sibers.Data\obj\Debug\net7.0\Sibers.Data.pdb
+C:\petProjects\SibersApp\Sibers.Data\obj\Debug\net7.0\Sibers.Data.genruntimeconfig.cache
+C:\petProjects\SibersApp\Sibers.Data\obj\Debug\net7.0\ref\Sibers.Data.dll

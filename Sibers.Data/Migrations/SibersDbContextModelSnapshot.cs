@@ -123,14 +123,13 @@ namespace Sibers.Data.Migrations
 
                     NpgsqlPropertyBuilderExtensions.UseIdentityByDefaultColumn(b.Property<int>("AssignmentId"));
 
-                    b.Property<int>("AssigneeId")
+                    b.Property<int?>("AssigneeId")
                         .HasColumnType("integer");
 
                     b.Property<int>("AuthorId")
                         .HasColumnType("integer");
 
                     b.Property<string>("Comment")
-                        .IsRequired()
                         .HasColumnType("text");
 
                     b.Property<string>("Description")
@@ -152,7 +151,6 @@ namespace Sibers.Data.Migrations
                         .HasColumnType("integer");
 
                     b.Property<string>("Title")
-                        .IsRequired()
                         .HasColumnType("text");
 
                     b.HasKey("AssignmentId");
@@ -209,9 +207,7 @@ namespace Sibers.Data.Migrations
                 {
                     b.HasOne("Sibers.Data.Entities.Classes.Employee", "Assignee")
                         .WithMany("AssignedAssignments")
-                        .HasForeignKey("AssigneeId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
+                        .HasForeignKey("AssigneeId");
 
                     b.HasOne("Sibers.Data.Entities.Classes.Employee", "Author")
                         .WithMany("AuthoredAssignments")

@@ -14,8 +14,7 @@ namespace Sibers.Data.Entities.Classes
         public string? ProjectName { get; set; }
         public string? CustomerCompany { get; set; }
         public string? ExecutionCompany { get; set; } 
-
-        public List<Assignment> Assignments { get; set; }
+        public List<Assignment>? Assignments { get; set; }
 
         public override void CustomConfigure(EntityTypeBuilder<Project> pBuilder)
         {

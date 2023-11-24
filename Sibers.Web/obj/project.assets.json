@@ -2552,6 +2552,19 @@
           "lib/netstandard1.3/System.Xml.XDocument.dll": {}
         }
       },
+      "Sibers.Core/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "Sibers.Data": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Sibers.Core.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Sibers.Core.dll": {}
+        }
+      },
       "Sibers.Data/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v7.0",
@@ -8078,6 +8091,11 @@
         "system.xml.xdocument.nuspec"
       ]
     },
+    "Sibers.Core/1.0.0": {
+      "type": "project",
+      "path": "../Sibers.Core/Sibers.Core.csproj",
+      "msbuildProject": "../Sibers.Core/Sibers.Core.csproj"
+    },
     "Sibers.Data/1.0.0": {
       "type": "project",
       "path": "../Sibers.Data/Sibers.Data.csproj",
@@ -8097,34 +8115,29 @@
       "Microsoft.EntityFrameworkCore.Tools >= 7.0.13",
       "Npgsql.EntityFrameworkCore.PostgreSQL >= 7.0.11",
       "Npgsql.EntityFrameworkCore.PostgreSQL.Design >= 1.1.0",
+      "Sibers.Core >= 1.0.0",
       "Sibers.Data >= 1.0.0",
       "Swashbuckle.AspNetCore >= 6.4.0"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\kasylbekov\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\DevExpress 21.2\\Components\\Offline Packages": {},
-    "C:\\Program Files\\DevExpress 22.1\\Components\\Offline Packages": {},
+    "C:\\Users\\Sulpak\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\kasylbekov\\source\\repos\\Sibers.Data\\Sibers.Web\\Sibers.Web.csproj",
+      "projectUniqueName": "C:\\petProjects\\SibersApp\\Sibers.Web\\Sibers.Web.csproj",
       "projectName": "Sibers.Web",
-      "projectPath": "C:\\Users\\kasylbekov\\source\\repos\\Sibers.Data\\Sibers.Web\\Sibers.Web.csproj",
-      "packagesPath": "C:\\Users\\kasylbekov\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\kasylbekov\\source\\repos\\Sibers.Data\\Sibers.Web\\obj\\",
+      "projectPath": "C:\\petProjects\\SibersApp\\Sibers.Web\\Sibers.Web.csproj",
+      "packagesPath": "C:\\Users\\Sulpak\\.nuget\\packages\\",
+      "outputPath": "C:\\petProjects\\SibersApp\\Sibers.Web\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "C:\\Program Files (x86)\\DevExpress 21.2\\Components\\Offline Packages",
-        "C:\\Program Files\\DevExpress 22.1\\Components\\Offline Packages",
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\kasylbekov\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 21.2.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 22.1.config",
+        "C:\\Users\\Sulpak\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -8132,19 +8145,18 @@
         "net7.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\DevExpress 21.2\\Components\\System\\Components\\Packages": {},
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Program Files\\DevExpress 22.1\\Components\\System\\Components\\Packages": {},
-        "C:\\Program Files\\dotnet\\library-packs": {},
-        "https://api.nuget.org/v3/index.json": {},
-        "https://nuget.devexpress.com/5mA6gVgeQFsRPnvre7kQd8dhdIb9RceflxDUOF5s2zLAMCvGa6/api": {}
+        "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "C:\\Users\\kasylbekov\\source\\repos\\Sibers.Data\\Sibers.Data\\Sibers.Data.csproj": {
-              "projectPath": "C:\\Users\\kasylbekov\\source\\repos\\Sibers.Data\\Sibers.Data\\Sibers.Data.csproj"
+            "C:\\petProjects\\SibersApp\\Sibers.Core\\Sibers.Core.csproj": {
+              "projectPath": "C:\\petProjects\\SibersApp\\Sibers.Core\\Sibers.Core.csproj"
+            },
+            "C:\\petProjects\\SibersApp\\Sibers.Data\\Sibers.Data.csproj": {
+              "projectPath": "C:\\petProjects\\SibersApp\\Sibers.Data\\Sibers.Data.csproj"
             }
           }
         }
@@ -8231,7 +8243,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.201\\RuntimeIdentifierGraph.json"
       }
     }
   }

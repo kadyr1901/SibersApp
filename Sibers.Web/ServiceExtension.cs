@@ -1,7 +1,11 @@
 ﻿using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
+using Sibers.Core.Repositories;
+using Sibers.Core.Repositories.Base;
 using Sibers.Data;
+using Sibers.Data.Entities.Classes;
+using System.Reflection.Metadata;
 
 namespace Sibers.Web
 {
@@ -27,6 +31,8 @@ namespace Sibers.Web
             
                 .AddRoles<IdentityRole>()
                 .AddEntityFrameworkStores<SibersDbContext>();
+            services.AddScoped<ISibersRepository<Assignment>, SibersRepository<Assignment>>();
+            services.AddScoped<IAssignmentRepository, AssignmentRepository>();
         }
 
         public static async Task ConfigureApplicationAsync(this WebApplication app)
